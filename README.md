@@ -1,1 +1,3 @@
 # Blogs-APIs
+The project is to create,update,delete,and also to get all blog posts as well as by ids. Here i used node.js and used mysql as my database. I have used postman for checking the apis working. The blog contain mainly author,content and title. Also i have implemented a rate-limiting mechanism to restrict the number of requests within a minute. It will allow upto maximum of five requests in a minute. The port used here is 5000. You have to substitute user: 'root',
+  password: 'password' in connection of mysql instead of user: 'user_name', password:'my_password'. These are the keys for the mysql. We also have to install node,express,mysql,body parser and also express-rate-limit  for co nfiguring this project.
